@@ -31,10 +31,6 @@ body {
     
 }
 
-.logo>span {
-    color: var(--iris);
-}
-
 h1 {
     font-weight: 700;
     font-size: 56px;
@@ -49,6 +45,7 @@ h2 {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
         text-align: center;
         color: var(--navy-blue);
 }
@@ -79,7 +76,16 @@ a {
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        color: var(--iris);
         text-transform: uppercase;
+}
+
+.logo-header {
+    color: var(--navy-blue);
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .addr-link {
@@ -124,6 +130,10 @@ a {
    background-color: var(--cloud); 
 }
 
+.team-card {
+    background-color: var(--white);
+}
+
 .team-title {
     text-align: center;
 }
@@ -139,7 +149,7 @@ a {
     background-color: var(--navy-blue)
 }
 
-.last {
+.logo-lower {
     color: var(--cloud);
 }
 /* #endregion */
