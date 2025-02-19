@@ -1,0 +1,148 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+}
+
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+
+/* #region DEFAULT */
+body {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: var(--slate);
+    background-color: var(--white);
+    
+}
+
+.logo>span {
+    color: var(--iris);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+h2 {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--navy-blue);
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+ ul, ol {
+     list-style-type: none;
+ }
+
+a {
+    font-weight: 500;
+    color: var(--navy-blue);
+    text-decoration: none;
+}
+/* #endregion */
+
+/* #region HEADER */
+.logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.addr-link {
+    font-weight: 400;
+    color: var(--slate);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
+.addr-link:hover,
+.addr-link:focus,
+.addr-link:active {
+    color: var(--ocean);
+}
+/* #endregion */
+
+/* #region HERO */
+.hero {
+    background-color: var(--navy-blue);
+}
+
+.hero-btn {
+    background: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
+    background: var(--ocean);
+}
+/* #endregion */
+
+/* #region TEAM */
+.team {
+   background-color: var(--cloud); 
+}
+
+.team-title {
+    text-align: center;
+}
+
+.team-text {
+    text-align: center;
+}
+/* #endregion */
+
+/* #region FOOTER */
+.lower {
+    color: var(--cloud);
+    background-color: var(--navy-blue)
+}
+
+.last {
+    color: var(--cloud);
+}
+/* #endregion */
+
+
+
